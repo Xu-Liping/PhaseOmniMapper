@@ -26,11 +26,11 @@ We implemented the PhaseOmniMapper model using the Tensorflow 2.7.0 and Torch 2.
 
 4. When constructing IDR-related datasets, IDR1.py and IDR2.py are used to process the scaffold protein and the client protein to obtain a dataset containing IDR regions and mark the IDR residue positions.
 
-# *Using trained model for human α-synuclein prediction*
+# **Using trained model for human α-synuclein prediction**
 
 1. The PDB file of human α-synuclein was obtained using esmfold.py, and the feature matrix was extracted using ProtT5, which was then integrated with the obtained CSV file of physicochemical properties as input.
 2. Predicting LLPS propensity of human α-synuclein using predict.py.
 3. The trained mean_std.npz and onehot_encoder.pkl are in the IDR folder.
 
-# *Notification of commercial use*
+# **Notification of commercial use**
 Commercialization of this product is prohibited without our permission.
